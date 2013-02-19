@@ -238,8 +238,6 @@ public class MainActivity extends FragmentActivity implements TabHost.OnTabChang
         public CustomTab(Context context, int tab_index, String tag) {
             this(context);
 
-            LayoutParams params = new LayoutParams(LayoutParams.WRAP_CONTENT,
-                    LayoutParams.WRAP_CONTENT);
             TextView textView = new TextView(context);
             textView.setText(tag);
             textView.setGravity(Gravity.CENTER);
